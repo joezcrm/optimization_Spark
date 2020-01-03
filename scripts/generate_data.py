@@ -4,7 +4,7 @@ from pyspark.sql.types import (DoubleType,
                                StructType)
 from random import random, uniform
 
-path = "s3://joezcrmdb/data/testing_data.parquet"
+path = "/data/testing_data.parquet"
 
 def main():
     spark = SparkSession \
