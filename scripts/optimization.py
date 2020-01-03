@@ -14,9 +14,9 @@ from math import exp, log
 from random import random
 
 # Parquet data path
-data_path = "s3://joezcrmdb/data/testing_data.parquet"
+data_path = "/data/testing_data.parquet"
 # Result path
-result_path = "s3://joezcrmdb/output/results.parquet"
+result_path = "/output/results.parquet"
 # Data schema
 parquet_schema = {"x_axis":"x_axis", "y_axis":"y_axis"}
 # Number of runs for each generation
