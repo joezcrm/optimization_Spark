@@ -4,6 +4,7 @@ from pyspark.sql.types import (DoubleType,
                                StructType)
 from random import random, uniform
 
+# s3 path
 path = "/data/testing_data.parquet"
 
 def main():
