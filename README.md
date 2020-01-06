@@ -1,4 +1,4 @@
-# optimization_Spark_EMR
+# optimization_with_Spark
 ## Purpose
 This project tries to create a standardized optimization scripts for various optimization problems using Simulated
 Annealing algorithm and Apache Spark.
