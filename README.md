@@ -1,7 +1,7 @@
 # optimization_with_Spark
 ## Purpose
-This project tries to create a standardized optimization scripts for various optimization problems using Simulated
-Annealing algorithm and Apache Spark.
+This project tries to create a standardized optimization scripts for various optimization problems using generic
+algorithm, Simulated Annealing algorithm, and Apache Spark.
 ## Python Scripts
 ### "/generic_sa/generate_data.py"
 The script is used only to generate data for testing.
