@@ -16,7 +16,7 @@ def poly_generate(solution):
     """
     seed()
     counter = 0
-    delta = 0.01
+    delta = 0.1
         
     position = randint(0, len(solution)-1)
     direction = randint(0, 1)
@@ -53,7 +53,7 @@ def poly_initialize(size):
     seed()
     solution = []
     for num in range(size):
-        solution.append(float(uniform(-10.0, 10.0)))
+        solution.append(float(uniform(-10.0, 0)))
     return solution
     
 @udf (DoubleType())
